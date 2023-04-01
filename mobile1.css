@@ -1,0 +1,36 @@
+@media only screen and (max-width:574px) {
+    body{
+        /* background-color: red; */
+        /* margin-left: 8px; */
+    }
+    .carousel-inner{
+        height: 330px;
+    }
+    .latest-events .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rsp-card1{
+        width: 100%;
+    height: auto;
+    }
+    .latest-events .full-img{
+        width: 100%;
+        height: 200px;
+    }
+    .latest-events .card-body{
+        font-size: 1.3rem;
+    }
+    .latest-events .card-title{
+        font-size: 1.7rem;
+    }
+    .sports-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rsp-sports-area{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,25 @@
+@media (min-width: 767px) and (max-width: 991px) {
+    body{
+        /* background-color: green; */
+        /* margin-left: 8px; */
+    }
+    .my-carousal-img {
+        width: 314px;
+        height: 182px;
+        /* margin-top: 5px; */
+        /* border-radius: 5px; */
+    }
+
+    .rsp-sports-area{
+        width: 20rem;
+    }
+    .card-body{
+        margin-top: 3px;
+        padding: 0.25rem 0.25rem;
+        font-size: 0.8rem;
+    }
+    .card-title{
+        margin-bottom: 2px;
+        font-size: 1.2rem;
+    }
+}

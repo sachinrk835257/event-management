@@ -1,0 +1,28 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    body{
+        /* background-color: green; */
+        /* margin-left: 8px; */
+    }
+    .carousel-inner{
+        height: 351px;
+    }
+
+    .rsp-sports-area{
+        width: 16rem;
+    }
+    .latest-events .full-img{
+        height: 57px;
+    width: 100%;
+    }
+    .latest-events .card-body{
+        font-size: 0.7rem;
+        padding: 0px 0px;
+    }
+    .latest-events .card-title{
+        font-size: 0.95rem;
+        margin-bottom: 0.2rem;
+    }
+    .latest-events .card-body p{
+        margin-bottom: 0px;
+    }
+}
