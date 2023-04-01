@@ -63,7 +63,7 @@ body::before {
 }
 
 .carousel-inner{
-    height: 481px;
+    height: auto;
 }
 
 .card:hover{
