@@ -1,18 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
-body{
+
+body {
     font-family: 'Alkatra', cursive;
-}
-body::before {
-    background: url('https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 353vh;
-    z-index: -1;
-    opacity: 0.3;
+    overflow-x: hidden;
 }
 
 .img-logo {
@@ -23,7 +13,8 @@ body::before {
     position: relative;
     top: -3px;
 }
-.edit-icon{
+
+.edit-icon {
     background-color: red;
     border-radius: 50%;
     padding: 23px;
@@ -62,18 +53,20 @@ body::before {
     margin-top: -13px;
 }
 
-.carousel-inner{
+.carousel-inner {
     height: auto;
 }
 
-.card:hover{
+.card:hover {
     border: 2px solid black;
 }
-.card{
+
+.card {
     background-color: transparent;
     border: none;
 }
-.rsp-card1{
+
+.rsp-card1 {
     max-width: 475px;
     margin-right: 5px;
     height: 159px;
@@ -87,33 +80,40 @@ body::before {
     line-height: 15px;
     padding-top: 2px;
 }
-.center-img{
+
+.center-img {
     display: flex;
     align-items: center;
 }
-.latest-events .full-img{
+
+.latest-events .full-img {
     height: 100px;
 }
-.sports-row{
+
+.sports-row {
     display: flex;
     justify-content: center;
     /* row-gap: 10px 21px; */
     column-gap: 28px;
     /* background-color: red; */
 }
-.rsp-sports-area{
+
+.rsp-sports-area {
     width: 30rem;
     margin: 10px 0px;
 }
-.videos-img{
+
+.videos-img {
     width: 100%;
     height: 100%;
     padding: 5px;
 }
-.hover-effect:hover{
+
+.hover-effect:hover {
     box-shadow: -6px 3px 9px #54c483;
 }
-.fa-circle-play{
+
+.fa-circle-play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -124,44 +124,83 @@ body::before {
     border-radius: 50%;
     z-index: 1;
 }
-.sub-heading{
+
+.sub-heading {
     padding-left: 29px;
     font-size: 1.4rem;
     color: #5c5353;
     text-transform: capitalize;
     margin: 0px 0px 13px 0px;
 }
-.my-footer{
+
+.my-footer {
     background-color: black;
     color: white;
     position: relative;
     bottom: -29px;
     padding-top: 20px;
 }
-.fa-square-twitter{
+
+.fa-square-twitter {
     font-size: 2.4rem;
     color: white;
 }
-.fa-square-facebook{
+
+.fa-square-facebook {
     font-size: 2.4rem;
     color: white;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     font-size: 2.4rem;
     color: white;
 }
-.user-form div{
+
+.user-form div {
     margin: 10px 0px;
 }
-.user-form input{
+
+.user-form input {
     border-radius: 5px;
 }
-.user-form input:hover{
+
+.user-form input:hover {
     border: 2px solid rgb(245, 87, 87);
     /* padding: 4px; */
 }
 
-.reset-btn{
+.name-input {
+    margin: 10px 0px;
+}
+
+.name-input span {
+    font-weight: 700;
+    margin-right: 166px;
+}
+
+.name-input input,
+.input-email input,
+.input-ph input {
+    width: 30%;
+    text-align: center;
+}
+
+.input-gender span{
+    font-weight: 700;
+    margin-right: 182px;
+}
+
+.input-email label{
+    font-weight: 700;
+    margin-right: 126px;
+}
+
+.input-ph label{
+    font-weight: 700;
+    margin-right: 53px;
+}
+
+.reset-btn {
     margin-right: 45px;
     width: 100px;
     height: 33px;
@@ -169,7 +208,8 @@ body::before {
     line-height: 19px;
     font-size: 1.2rem;
 }
-.submit-btn{
+
+.submit-btn {
     /* margin-right: 45px; */
     width: 100px;
     height: 33px;
@@ -177,25 +217,30 @@ body::before {
     line-height: 19px;
     font-size: 1.2rem;
 }
-.about-us p{
+
+.about-us p {
     text-align: justify;
     padding-left: 9px;
     line-height: 27px;
     font-size: 1.2rem;
     color: #2d2222;
 }
-.about-us h4{
+
+.about-us h4 {
     text-transform: uppercase;
 }
-.about-us ul{
+
+.about-us ul {
     list-style-type: disclosure-closed;
 }
-.about-us ul li{
+
+.about-us ul li {
     margin-bottom: 2px;
     font-size: 1.2rem;
     color: #332c2c;
 }
-.my-tables{
+
+.my-tables {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
