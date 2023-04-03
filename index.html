@@ -14,6 +14,39 @@
   <link rel="stylesheet" href="mobile4.css">
   <link rel="stylesheet" href="mobile5.css">
   <title>Home- Sports Events</title>
+  <style>
+    body::before {
+      background: url('https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 448vh;
+    z-index: -1;
+    opacity: 0.3;
+    }
+    @media only screen and (max-width:574px) {
+      body::before{
+          min-height: 740vh;
+          }
+      }
+    @media (min-width: 575px) and (max-width: 767px) {
+      body::before{
+          min-height: 334vh;
+          }
+      }
+    @media (min-width: 767px) and (max-width: 991px) {
+      body::before{
+        min-height: 341vh;
+          }
+      }
+    @media (min-width: 992px) and (max-width: 1199px) {
+       body::before{
+          min-height: 399vh;
+          }
+      }
+  </style>
 </head>
 
 <body>
